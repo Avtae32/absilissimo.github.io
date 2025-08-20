@@ -1,0 +1,72 @@
+/* Style général pour le fond */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Pour centrer la div */
+    justify-content: center; /* Centre horizontalement */
+    align-items: flex-end;  /* Centre en bas */
+    height: 100vh;
+    background-color: #424056;
+}
+
+.paper{
+    background-color: #FFBF6D; /* Couleur de la div */
+    width: 78vh; /* Largeur de la div */
+    height: 90%;
+    margin: 10px auto; /* Centré horizontalement */
+    padding: 20px;
+    border: 2px solid #937054; /* Bordure */
+    font-family: cmunvt;
+}
+
+.citation{
+    text-align: center;
+    border: solid #937054 2px;
+    margin: 10px;
+}
+
+.texte {
+    padding: 40px;
+}
+
+/* about */
+.logo_absilissimo{
+justify-content: center;
+width: 70vh;
+}
+
+.about_description{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.photo{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.empty {
+    height: 150px;
+    color: #FFBF6D;
+    display: block;
+    margin-bottom: 0;
+}
+
+footer{
+    position: fixed;
+}
+
+.typer {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: flex-end;  /* Place en bas */
+    height: 100%;           /* S'assure que la div remplit l'espace parent */
+    width: 100%;            /* Occupe toute la largeur */
+}
+
+.typer img {
+    max-width: 100%;        /* Évite les débordements */
+    height: 30vh;
+    width: 125vh;
+}
